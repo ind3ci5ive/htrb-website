@@ -2,18 +2,54 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
     height: 100%;
 }
+
+
 
 footer {
 
     font-size: 14px;
     color: gray;
+    margin-top: auto;
 }
 
+/* .canvas {
 
+  
+  z-index: -1;
+} */
+
+
+.button-container {
+
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.display-num {
+
+  margin: 0 30px;
+  font-size: 1.2rem;
+  font-family: -apple-system,sans-serif;
+  font-weight: 700;
+  opacity: 1;
+  animation: fade 2s linear forwards;
+}
+
+@-webkit-keyframes fadeinout {
+
+  0%, 100% {opacity: 0}
+  50% {opacity: 1}
+}
+
+@keyframes fade {
+
+  0%, 100% {opacity: 0}
+  50% {opacity: 1}
+}
 
 .button {
   appearance: none;
