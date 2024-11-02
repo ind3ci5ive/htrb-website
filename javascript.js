@@ -4,6 +4,13 @@ function hawktuah() {
     sound.play();
 }
 
+function plusOne() {
+
+    let x = document.getElementsByClassName("display-num")
+}
+
+elementName
+
 document.getElementsByClassName("button")[0].addEventListener("click", hawktuah);
 
 
